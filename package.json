@@ -14,3 +14,24 @@
     "express": "^4.20.0"
   }
 }
+
+
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A multi-functional Discord bot with server management, moderation, and utility commands.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
